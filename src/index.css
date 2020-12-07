@@ -1,0 +1,106 @@
+html {
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rbg(244,244,244);
+  color: #333;
+  background-image: url('https://image.freepik.com/free-photo/sunset-sky-from-airplane-window_117856-416.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+small {
+  font-size: 1.2rem;
+}
+
+h1, h2 {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 40px;
+}
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20%;
+  padding: 5%;
+
+}
+.label {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+  
+}
+.input {
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 4rem;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+.button {
+  background-color: rgba(0,0,0,0.75);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+.button:hover {
+  background-color: rgba(0,0,0,0.85)
+}
+.flight-list {
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+
+
+}
+.flight--card {
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.50);
+  margin-bottom: 2rem;
+  width: 300px;
+  background-color: white;
+  opacity: 0.5;
+  
+}
+.flight--card:hover {
+  box-shadow: 5px 5px 5px rgba(27, 16, 16, 0.80);
+  
+}
+li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+.card--title {
+  margin-bottom: 0 auto;
+  font-size: 3.2rem;
+}
+
+.card--image {
+  margin: 0 auto;
+  display: block
+}
